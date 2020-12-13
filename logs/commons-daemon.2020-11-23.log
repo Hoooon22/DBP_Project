@@ -1,0 +1,33 @@
+[2020-11-23 11:17:50] [info]  [48172] Apache Commons Daemon procrun (1.2.3.0 64-bit) started.
+[2020-11-23 11:17:50] [info]  [48172] Installing service 'Tomcat8' name 'Apache Tomcat 8.5 Tomcat8'.
+[2020-11-23 11:17:50] [info]  [48172] Service 'Tomcat8' installed.
+[2020-11-23 11:17:50] [info]  [48172] Apache Commons Daemon procrun finished.
+[2020-11-23 11:17:51] [info]  [22568] Apache Commons Daemon procrun (1.2.3.0 64-bit) started.
+[2020-11-23 11:17:52] [info]  [22568] Updating service...
+[2020-11-23 11:17:52] [info]  [22568] Updated service 'Tomcat8'.
+[2020-11-23 11:17:52] [info]  [22568] Finished updating service 'Tomcat8'.
+[2020-11-23 11:17:52] [info]  [22568] Apache Commons Daemon procrun finished.
+[2020-11-23 11:17:53] [info]  [25644] Apache Commons Daemon procrun (1.2.3.0 64-bit) started.
+[2020-11-23 11:17:53] [info]  [25644] Updating service...
+[2020-11-23 11:17:53] [info]  [25644] Updated service 'Tomcat8'.
+[2020-11-23 11:17:53] [info]  [25644] Finished updating service 'Tomcat8'.
+[2020-11-23 11:17:53] [info]  [25644] Apache Commons Daemon procrun finished.
+[2020-11-23 11:17:53] [info]  [19976] Apache Commons Daemon procrun (1.2.3.0 64-bit) started.
+[2020-11-23 11:17:53] [info]  [19976] Updating service...
+[2020-11-23 11:17:53] [info]  [19976] Updated service 'Tomcat8'.
+[2020-11-23 11:17:53] [info]  [19976] Finished updating service 'Tomcat8'.
+[2020-11-23 11:17:54] [info]  [19976] Apache Commons Daemon procrun finished.
+[2020-11-23 11:17:54] [info]  [36636] Apache Commons Daemon procrun (1.2.3.0 64-bit) started.
+[2020-11-23 11:17:54] [info]  [36636] Updating service...
+[2020-11-23 11:17:54] [info]  [36636] Updated service 'Tomcat8'.
+[2020-11-23 11:17:54] [info]  [36636] Finished updating service 'Tomcat8'.
+[2020-11-23 11:17:54] [info]  [36636] Apache Commons Daemon procrun finished.
+[2020-11-23 11:18:08] [info]  [11456] Apache Commons Daemon procrun (1.2.3.0 64-bit) started.
+[2020-11-23 11:18:08] [info]  [11456] Running Service 'Tomcat8'...
+[2020-11-23 11:18:08] [info]  [ 2692] Starting service...
+[2020-11-23 11:18:10] [info]  [ 2692] Service started in 1329 milliseconds.
+[2020-11-23 11:36:19] [info]  [40708] Console SHUTDOWN event signaled.
+[2020-11-23 11:36:19] [info]  [40708] Stopping service...
+[2020-11-23 11:36:20] [info]  [40708] Service stop thread completed.
+[2020-11-23 11:36:20] [info]  [11456] Run service finished.
+[2020-11-23 11:36:21] [info]  [11456] Apache Commons Daemon procrun finished.

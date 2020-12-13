@@ -1,0 +1,2645 @@
+14-Dec-2020 01:24:31.925 심각 [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/insert_teach.jsp]의 [20] 행에서 오류가 발생했습니다.
+eduBean.CourseMgr cannot be resolved to a type
+17: 				<th>湲곗옄�옱 媛쒖닔</th>
+18: 			</tr><br>
+19: 			
+20: 	<jsp:useBean id="CourseMgr" class="eduBean.CourseMgr" />
+21: 	<%
+22: 		Vector vlist = CourseMgr.getCourseList();		
+23: 	
+
+
+JSP 파일 [/insert_teach.jsp]의 [20] 행에서 오류가 발생했습니다.
+eduBean.CourseMgr cannot be resolved to a type
+17: 				<th>湲곗옄�옱 媛쒖닔</th>
+18: 			</tr><br>
+19: 			
+20: 	<jsp:useBean id="CourseMgr" class="eduBean.CourseMgr" />
+21: 	<%
+22: 		Vector vlist = CourseMgr.getCourseList();		
+23: 	
+
+
+JSP 파일 [/insert_teach.jsp]의 [20] 행에서 오류가 발생했습니다.
+eduBean.CourseMgr cannot be resolved to a type
+17: 				<th>湲곗옄�옱 媛쒖닔</th>
+18: 			</tr><br>
+19: 			
+20: 	<jsp:useBean id="CourseMgr" class="eduBean.CourseMgr" />
+21: 	<%
+22: 		Vector vlist = CourseMgr.getCourseList();		
+23: 	
+
+
+JSP 파일 [/insert_teach.jsp]의 [25] 행에서 오류가 발생했습니다.
+Course cannot be resolved to a type
+22: 		Vector vlist = CourseMgr.getCourseList();		
+23: 	
+24: 		for(int i=0; i<vlist.size(); i++) {
+25: 			Course en = (Course)vlist.elementAt(i);
+26: 	%>
+27: 			<tr>
+28: 				<td align="center"><%=en.getCId()%></td>
+
+
+JSP 파일 [/insert_teach.jsp]의 [25] 행에서 오류가 발생했습니다.
+Course cannot be resolved to a type
+22: 		Vector vlist = CourseMgr.getCourseList();		
+23: 	
+24: 		for(int i=0; i<vlist.size(); i++) {
+25: 			Course en = (Course)vlist.elementAt(i);
+26: 	%>
+27: 			<tr>
+28: 				<td align="center"><%=en.getCId()%></td>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/insert_teach.jsp]의 [20] 행에서 오류가 발생했습니다.
+eduBean.CourseMgr cannot be resolved to a type
+17: 				<th>湲곗옄�옱 媛쒖닔</th>
+18: 			</tr><br>
+19: 			
+20: 	<jsp:useBean id="CourseMgr" class="eduBean.CourseMgr" />
+21: 	<%
+22: 		Vector vlist = CourseMgr.getCourseList();		
+23: 	
+
+
+JSP 파일 [/insert_teach.jsp]의 [20] 행에서 오류가 발생했습니다.
+eduBean.CourseMgr cannot be resolved to a type
+17: 				<th>湲곗옄�옱 媛쒖닔</th>
+18: 			</tr><br>
+19: 			
+20: 	<jsp:useBean id="CourseMgr" class="eduBean.CourseMgr" />
+21: 	<%
+22: 		Vector vlist = CourseMgr.getCourseList();		
+23: 	
+
+
+JSP 파일 [/insert_teach.jsp]의 [20] 행에서 오류가 발생했습니다.
+eduBean.CourseMgr cannot be resolved to a type
+17: 				<th>湲곗옄�옱 媛쒖닔</th>
+18: 			</tr><br>
+19: 			
+20: 	<jsp:useBean id="CourseMgr" class="eduBean.CourseMgr" />
+21: 	<%
+22: 		Vector vlist = CourseMgr.getCourseList();		
+23: 	
+
+
+JSP 파일 [/insert_teach.jsp]의 [25] 행에서 오류가 발생했습니다.
+Course cannot be resolved to a type
+22: 		Vector vlist = CourseMgr.getCourseList();		
+23: 	
+24: 		for(int i=0; i<vlist.size(); i++) {
+25: 			Course en = (Course)vlist.elementAt(i);
+26: 	%>
+27: 			<tr>
+28: 				<td align="center"><%=en.getCId()%></td>
+
+
+JSP 파일 [/insert_teach.jsp]의 [25] 행에서 오류가 발생했습니다.
+Course cannot be resolved to a type
+22: 		Vector vlist = CourseMgr.getCourseList();		
+23: 	
+24: 		for(int i=0; i<vlist.size(); i++) {
+25: 			Course en = (Course)vlist.elementAt(i);
+26: 	%>
+27: 			<tr>
+28: 				<td align="center"><%=en.getCId()%></td>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+14-Dec-2020 01:25:20.206 심각 [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [/insert_teach.jsp (행: [20], 열: [1]) useBean의 class 속성을 위한 값 [eduBean.EquipmentMgr]은(는) 유효하지 않습니다.]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: /insert_teach.jsp (행: [20], 열: [1]) useBean의 class 속성을 위한 값 [eduBean.EquipmentMgr]은(는) 유효하지 않습니다.
+		at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:41)
+		at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:291)
+		at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:114)
+		at org.apache.jasper.compiler.Generator$GenerateVisitor.visit(Generator.java:1383)
+		at org.apache.jasper.compiler.Node$UseBean.accept(Node.java:1186)
+		at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2389)
+		at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:2441)
+		at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:2447)
+		at org.apache.jasper.compiler.Node$Root.accept(Node.java:470)
+		at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2389)
+		at org.apache.jasper.compiler.Generator.generate(Generator.java:3664)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:254)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:375)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+14-Dec-2020 01:34:33.343 심각 [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/insert_teach.jsp]의 [28] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+25: 			Equipment en = (Equipment)vlist.elementAt(i);
+26: 	%>
+27: 			<tr>
+28: 				<td align="center"><%=en.getCId()%></td>
+29: 				<td align="center"><%=en.getCIdNo()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getPId())) { %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [29] 행에서 오류가 발생했습니다.
+The method getCIdNo() is undefined for the type Equipment
+26: 	%>
+27: 			<tr>
+28: 				<td align="center"><%=en.getCId()%></td>
+29: 				<td align="center"><%=en.getCIdNo()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getPId())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getPId()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+
+
+JSP 파일 [/insert_teach.jsp]의 [31] 행에서 오류가 발생했습니다.
+The method getPId() is undefined for the type Equipment
+28: 				<td align="center"><%=en.getCId()%></td>
+29: 				<td align="center"><%=en.getCIdNo()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getPId())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getPId()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getCUnit()%></td>
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getPId() is undefined for the type Equipment
+29: 				<td align="center"><%=en.getCIdNo()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getPId())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getPId()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getCUnit()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+29: 				<td align="center"><%=en.getCIdNo()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getPId())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getPId()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getCUnit()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getCIdNo() is undefined for the type Equipment
+29: 				<td align="center"><%=en.getCIdNo()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getPId())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getPId()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getCUnit()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getCName() from the type Equipment is not visible
+29: 				<td align="center"><%=en.getCIdNo()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getPId())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getPId()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getCUnit()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [34] 행에서 오류가 발생했습니다.
+The method getCUnit() is undefined for the type Equipment
+31: 			<% if(session_id.equals(en.getPId())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getPId()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getCUnit()%></td>
+35: 				<td align="center">
+36: 			<% if (en.getPName() == null) { %>
+37: 					&nbsp;
+
+
+JSP 파일 [/insert_teach.jsp]의 [36] 행에서 오류가 발생했습니다.
+The method getPName() is undefined for the type Equipment
+33: 				</td>
+34: 				<td align="center"><%=en.getCUnit()%></td>
+35: 				<td align="center">
+36: 			<% if (en.getPName() == null) { %>
+37: 					&nbsp;
+38: 			<% } else { %>
+39: 				<%=en.getPName()%>
+
+
+JSP 파일 [/insert_teach.jsp]의 [39] 행에서 오류가 발생했습니다.
+The method getPName() is undefined for the type Equipment
+36: 			<% if (en.getPName() == null) { %>
+37: 					&nbsp;
+38: 			<% } else { %>
+39: 				<%=en.getPName()%>
+40: 			<% } %>
+41: 				</td>
+42: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [43] 행에서 오류가 발생했습니다.
+The method getPId() is undefined for the type Equipment
+40: 			<% } %>
+41: 				</td>
+42: 				<td align="center">
+43: 			<% if(en.getPId() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getPId())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+
+
+JSP 파일 [/insert_teach.jsp]의 [44] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+41: 				</td>
+42: 				<td align="center">
+43: 			<% if(en.getPId() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getPId())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [44] 행에서 오류가 발생했습니다.
+The method getCIdNo() is undefined for the type Equipment
+41: 				</td>
+42: 				<td align="center">
+43: 			<% if(en.getPId() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getPId())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [45] 행에서 오류가 발생했습니다.
+The method getPId() is undefined for the type Equipment
+42: 				<td align="center">
+43: 			<% if(en.getPId() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getPId())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+48: 					&nbsp;
+
+
+JSP 파일 [/insert_teach.jsp]의 [46] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+43: 			<% if(en.getPId() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getPId())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+48: 					&nbsp;
+49: 			<% } %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [46] 행에서 오류가 발생했습니다.
+The method getCIdNo() is undefined for the type Equipment
+43: 			<% if(en.getPId() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getPId())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+48: 					&nbsp;
+49: 			<% } %>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/insert_teach.jsp]의 [28] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+25: 			Equipment en = (Equipment)vlist.elementAt(i);
+26: 	%>
+27: 			<tr>
+28: 				<td align="center"><%=en.getCId()%></td>
+29: 				<td align="center"><%=en.getCIdNo()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getPId())) { %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [29] 행에서 오류가 발생했습니다.
+The method getCIdNo() is undefined for the type Equipment
+26: 	%>
+27: 			<tr>
+28: 				<td align="center"><%=en.getCId()%></td>
+29: 				<td align="center"><%=en.getCIdNo()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getPId())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getPId()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+
+
+JSP 파일 [/insert_teach.jsp]의 [31] 행에서 오류가 발생했습니다.
+The method getPId() is undefined for the type Equipment
+28: 				<td align="center"><%=en.getCId()%></td>
+29: 				<td align="center"><%=en.getCIdNo()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getPId())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getPId()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getCUnit()%></td>
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getPId() is undefined for the type Equipment
+29: 				<td align="center"><%=en.getCIdNo()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getPId())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getPId()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getCUnit()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+29: 				<td align="center"><%=en.getCIdNo()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getPId())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getPId()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getCUnit()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getCIdNo() is undefined for the type Equipment
+29: 				<td align="center"><%=en.getCIdNo()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getPId())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getPId()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getCUnit()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getCName() from the type Equipment is not visible
+29: 				<td align="center"><%=en.getCIdNo()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getPId())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getPId()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getCUnit()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [34] 행에서 오류가 발생했습니다.
+The method getCUnit() is undefined for the type Equipment
+31: 			<% if(session_id.equals(en.getPId())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getPId()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getCUnit()%></td>
+35: 				<td align="center">
+36: 			<% if (en.getPName() == null) { %>
+37: 					&nbsp;
+
+
+JSP 파일 [/insert_teach.jsp]의 [36] 행에서 오류가 발생했습니다.
+The method getPName() is undefined for the type Equipment
+33: 				</td>
+34: 				<td align="center"><%=en.getCUnit()%></td>
+35: 				<td align="center">
+36: 			<% if (en.getPName() == null) { %>
+37: 					&nbsp;
+38: 			<% } else { %>
+39: 				<%=en.getPName()%>
+
+
+JSP 파일 [/insert_teach.jsp]의 [39] 행에서 오류가 발생했습니다.
+The method getPName() is undefined for the type Equipment
+36: 			<% if (en.getPName() == null) { %>
+37: 					&nbsp;
+38: 			<% } else { %>
+39: 				<%=en.getPName()%>
+40: 			<% } %>
+41: 				</td>
+42: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [43] 행에서 오류가 발생했습니다.
+The method getPId() is undefined for the type Equipment
+40: 			<% } %>
+41: 				</td>
+42: 				<td align="center">
+43: 			<% if(en.getPId() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getPId())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+
+
+JSP 파일 [/insert_teach.jsp]의 [44] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+41: 				</td>
+42: 				<td align="center">
+43: 			<% if(en.getPId() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getPId())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [44] 행에서 오류가 발생했습니다.
+The method getCIdNo() is undefined for the type Equipment
+41: 				</td>
+42: 				<td align="center">
+43: 			<% if(en.getPId() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getPId())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [45] 행에서 오류가 발생했습니다.
+The method getPId() is undefined for the type Equipment
+42: 				<td align="center">
+43: 			<% if(en.getPId() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getPId())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+48: 					&nbsp;
+
+
+JSP 파일 [/insert_teach.jsp]의 [46] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+43: 			<% if(en.getPId() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getPId())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+48: 					&nbsp;
+49: 			<% } %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [46] 행에서 오류가 발생했습니다.
+The method getCIdNo() is undefined for the type Equipment
+43: 			<% if(en.getPId() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getPId())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+48: 					&nbsp;
+49: 			<% } %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+14-Dec-2020 04:23:48.040 심각 [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/update_teach.jsp]의 [55] 행에서 오류가 발생했습니다.
+Duplicate local variable tmax
+52: 			String cname = myResultSet.getString("csubject");
+53: 			String cunit = myResultSet.getString("eid");
+54: 			String tmax = myResultSet.getString("ename");
+55: 			String tmax = myResultSet.getString("ecount");
+56: 			String tmax = myResultSet.getString("ecid");
+57: 			String tmax = myResultSet.getString("mid");
+58: 	%>
+
+
+JSP 파일 [/update_teach.jsp]의 [56] 행에서 오류가 발생했습니다.
+Duplicate local variable tmax
+53: 			String cunit = myResultSet.getString("eid");
+54: 			String tmax = myResultSet.getString("ename");
+55: 			String tmax = myResultSet.getString("ecount");
+56: 			String tmax = myResultSet.getString("ecid");
+57: 			String tmax = myResultSet.getString("mid");
+58: 	%>
+59: 
+
+
+JSP 파일 [/update_teach.jsp]의 [57] 행에서 오류가 발생했습니다.
+Duplicate local variable tmax
+54: 			String tmax = myResultSet.getString("ename");
+55: 			String tmax = myResultSet.getString("ecount");
+56: 			String tmax = myResultSet.getString("ecid");
+57: 			String tmax = myResultSet.getString("mid");
+58: 	%>
+59: 
+60: 				<tr>
+
+
+JSP 파일 [/update_teach.jsp]의 [61] 행에서 오류가 발생했습니다.
+csid cannot be resolved to a variable
+58: 	%>
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+
+
+JSP 파일 [/update_teach.jsp]의 [61] 행에서 오류가 발생했습니다.
+csid cannot be resolved to a variable
+58: 	%>
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+
+
+JSP 파일 [/update_teach.jsp]의 [62] 행에서 오류가 발생했습니다.
+csname cannot be resolved to a variable
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+
+
+JSP 파일 [/update_teach.jsp]의 [62] 행에서 오류가 발생했습니다.
+csname cannot be resolved to a variable
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+
+
+JSP 파일 [/update_teach.jsp]의 [64] 행에서 오류가 발생했습니다.
+ename cannot be resolved to a variable
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+66: 				</tr>
+67: 	<%	
+
+
+JSP 파일 [/update_teach.jsp]의 [64] 행에서 오류가 발생했습니다.
+ename cannot be resolved to a variable
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+66: 				</tr>
+67: 	<%	
+
+
+JSP 파일 [/update_teach.jsp]의 [65] 행에서 오류가 발생했습니다.
+ecount cannot be resolved to a variable
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+66: 				</tr>
+67: 	<%	
+68: 		}
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/update_teach.jsp]의 [55] 행에서 오류가 발생했습니다.
+Duplicate local variable tmax
+52: 			String cname = myResultSet.getString("csubject");
+53: 			String cunit = myResultSet.getString("eid");
+54: 			String tmax = myResultSet.getString("ename");
+55: 			String tmax = myResultSet.getString("ecount");
+56: 			String tmax = myResultSet.getString("ecid");
+57: 			String tmax = myResultSet.getString("mid");
+58: 	%>
+
+
+JSP 파일 [/update_teach.jsp]의 [56] 행에서 오류가 발생했습니다.
+Duplicate local variable tmax
+53: 			String cunit = myResultSet.getString("eid");
+54: 			String tmax = myResultSet.getString("ename");
+55: 			String tmax = myResultSet.getString("ecount");
+56: 			String tmax = myResultSet.getString("ecid");
+57: 			String tmax = myResultSet.getString("mid");
+58: 	%>
+59: 
+
+
+JSP 파일 [/update_teach.jsp]의 [57] 행에서 오류가 발생했습니다.
+Duplicate local variable tmax
+54: 			String tmax = myResultSet.getString("ename");
+55: 			String tmax = myResultSet.getString("ecount");
+56: 			String tmax = myResultSet.getString("ecid");
+57: 			String tmax = myResultSet.getString("mid");
+58: 	%>
+59: 
+60: 				<tr>
+
+
+JSP 파일 [/update_teach.jsp]의 [61] 행에서 오류가 발생했습니다.
+csid cannot be resolved to a variable
+58: 	%>
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+
+
+JSP 파일 [/update_teach.jsp]의 [61] 행에서 오류가 발생했습니다.
+csid cannot be resolved to a variable
+58: 	%>
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+
+
+JSP 파일 [/update_teach.jsp]의 [62] 행에서 오류가 발생했습니다.
+csname cannot be resolved to a variable
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+
+
+JSP 파일 [/update_teach.jsp]의 [62] 행에서 오류가 발생했습니다.
+csname cannot be resolved to a variable
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+
+
+JSP 파일 [/update_teach.jsp]의 [64] 행에서 오류가 발생했습니다.
+ename cannot be resolved to a variable
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+66: 				</tr>
+67: 	<%	
+
+
+JSP 파일 [/update_teach.jsp]의 [64] 행에서 오류가 발생했습니다.
+ename cannot be resolved to a variable
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+66: 				</tr>
+67: 	<%	
+
+
+JSP 파일 [/update_teach.jsp]의 [65] 행에서 오류가 발생했습니다.
+ecount cannot be resolved to a variable
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+66: 				</tr>
+67: 	<%	
+68: 		}
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+14-Dec-2020 04:23:49.874 심각 [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/insert_teach.jsp]의 [28] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+25: 			Equipment en = (Equipment)vlist.elementAt(i);
+26: 	%>
+27: 			<tr>
+28: 				<td align="center"><%=en.getCId()%></td>
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [29] 행에서 오류가 발생했습니다.
+The method getCName() from the type Equipment is not visible
+26: 	%>
+27: 			<tr>
+28: 				<td align="center"><%=en.getCId()%></td>
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+
+
+JSP 파일 [/insert_teach.jsp]의 [31] 행에서 오류가 발생했습니다.
+The method getMID() is undefined for the type Equipment
+28: 				<td align="center"><%=en.getCId()%></td>
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getMID() is undefined for the type Equipment
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getCIdNo() is undefined for the type Equipment
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getCName() from the type Equipment is not visible
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [34] 행에서 오류가 발생했습니다.
+The method getECount() from the type Equipment is not visible
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+36: 			<% if (en.getCName() == null) { %>
+37: 					&nbsp;
+
+
+JSP 파일 [/insert_teach.jsp]의 [36] 행에서 오류가 발생했습니다.
+The method getCName() from the type Equipment is not visible
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+36: 			<% if (en.getCName() == null) { %>
+37: 					&nbsp;
+38: 			<% } else { %>
+39: 				<%=en.getCName()%>
+
+
+JSP 파일 [/insert_teach.jsp]의 [39] 행에서 오류가 발생했습니다.
+The method getCName() from the type Equipment is not visible
+36: 			<% if (en.getCName() == null) { %>
+37: 					&nbsp;
+38: 			<% } else { %>
+39: 				<%=en.getCName()%>
+40: 			<% } %>
+41: 				</td>
+42: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [43] 행에서 오류가 발생했습니다.
+The method getMID() is undefined for the type Equipment
+40: 			<% } %>
+41: 				</td>
+42: 				<td align="center">
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+
+
+JSP 파일 [/insert_teach.jsp]의 [44] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+41: 				</td>
+42: 				<td align="center">
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [44] 행에서 오류가 발생했습니다.
+The method getCIdNo() is undefined for the type Equipment
+41: 				</td>
+42: 				<td align="center">
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [45] 행에서 오류가 발생했습니다.
+The method getMID() is undefined for the type Equipment
+42: 				<td align="center">
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+48: 					&nbsp;
+
+
+JSP 파일 [/insert_teach.jsp]의 [46] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+48: 					&nbsp;
+49: 			<% } %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [46] 행에서 오류가 발생했습니다.
+The method getCIdNo() is undefined for the type Equipment
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+48: 					&nbsp;
+49: 			<% } %>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/insert_teach.jsp]의 [28] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+25: 			Equipment en = (Equipment)vlist.elementAt(i);
+26: 	%>
+27: 			<tr>
+28: 				<td align="center"><%=en.getCId()%></td>
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [29] 행에서 오류가 발생했습니다.
+The method getCName() from the type Equipment is not visible
+26: 	%>
+27: 			<tr>
+28: 				<td align="center"><%=en.getCId()%></td>
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+
+
+JSP 파일 [/insert_teach.jsp]의 [31] 행에서 오류가 발생했습니다.
+The method getMID() is undefined for the type Equipment
+28: 				<td align="center"><%=en.getCId()%></td>
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getMID() is undefined for the type Equipment
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getCIdNo() is undefined for the type Equipment
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getCName() from the type Equipment is not visible
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [34] 행에서 오류가 발생했습니다.
+The method getECount() from the type Equipment is not visible
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+36: 			<% if (en.getCName() == null) { %>
+37: 					&nbsp;
+
+
+JSP 파일 [/insert_teach.jsp]의 [36] 행에서 오류가 발생했습니다.
+The method getCName() from the type Equipment is not visible
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+36: 			<% if (en.getCName() == null) { %>
+37: 					&nbsp;
+38: 			<% } else { %>
+39: 				<%=en.getCName()%>
+
+
+JSP 파일 [/insert_teach.jsp]의 [39] 행에서 오류가 발생했습니다.
+The method getCName() from the type Equipment is not visible
+36: 			<% if (en.getCName() == null) { %>
+37: 					&nbsp;
+38: 			<% } else { %>
+39: 				<%=en.getCName()%>
+40: 			<% } %>
+41: 				</td>
+42: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [43] 행에서 오류가 발생했습니다.
+The method getMID() is undefined for the type Equipment
+40: 			<% } %>
+41: 				</td>
+42: 				<td align="center">
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+
+
+JSP 파일 [/insert_teach.jsp]의 [44] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+41: 				</td>
+42: 				<td align="center">
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [44] 행에서 오류가 발생했습니다.
+The method getCIdNo() is undefined for the type Equipment
+41: 				</td>
+42: 				<td align="center">
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [45] 행에서 오류가 발생했습니다.
+The method getMID() is undefined for the type Equipment
+42: 				<td align="center">
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+48: 					&nbsp;
+
+
+JSP 파일 [/insert_teach.jsp]의 [46] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+48: 					&nbsp;
+49: 			<% } %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [46] 행에서 오류가 발생했습니다.
+The method getCIdNo() is undefined for the type Equipment
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+48: 					&nbsp;
+49: 			<% } %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+14-Dec-2020 04:24:07.188 심각 [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/update_teach.jsp]의 [55] 행에서 오류가 발생했습니다.
+Duplicate local variable tmax
+52: 			String cname = myResultSet.getString("csubject");
+53: 			String cunit = myResultSet.getString("eid");
+54: 			String tmax = myResultSet.getString("ename");
+55: 			String tmax = myResultSet.getString("ecount");
+56: 			String tmax = myResultSet.getString("ecid");
+57: 			String tmax = myResultSet.getString("mid");
+58: 	%>
+
+
+JSP 파일 [/update_teach.jsp]의 [56] 행에서 오류가 발생했습니다.
+Duplicate local variable tmax
+53: 			String cunit = myResultSet.getString("eid");
+54: 			String tmax = myResultSet.getString("ename");
+55: 			String tmax = myResultSet.getString("ecount");
+56: 			String tmax = myResultSet.getString("ecid");
+57: 			String tmax = myResultSet.getString("mid");
+58: 	%>
+59: 
+
+
+JSP 파일 [/update_teach.jsp]의 [57] 행에서 오류가 발생했습니다.
+Duplicate local variable tmax
+54: 			String tmax = myResultSet.getString("ename");
+55: 			String tmax = myResultSet.getString("ecount");
+56: 			String tmax = myResultSet.getString("ecid");
+57: 			String tmax = myResultSet.getString("mid");
+58: 	%>
+59: 
+60: 				<tr>
+
+
+JSP 파일 [/update_teach.jsp]의 [61] 행에서 오류가 발생했습니다.
+csid cannot be resolved to a variable
+58: 	%>
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+
+
+JSP 파일 [/update_teach.jsp]의 [61] 행에서 오류가 발생했습니다.
+csid cannot be resolved to a variable
+58: 	%>
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+
+
+JSP 파일 [/update_teach.jsp]의 [62] 행에서 오류가 발생했습니다.
+csname cannot be resolved to a variable
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+
+
+JSP 파일 [/update_teach.jsp]의 [62] 행에서 오류가 발생했습니다.
+csname cannot be resolved to a variable
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+
+
+JSP 파일 [/update_teach.jsp]의 [64] 행에서 오류가 발생했습니다.
+ename cannot be resolved to a variable
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+66: 				</tr>
+67: 	<%	
+
+
+JSP 파일 [/update_teach.jsp]의 [64] 행에서 오류가 발생했습니다.
+ename cannot be resolved to a variable
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+66: 				</tr>
+67: 	<%	
+
+
+JSP 파일 [/update_teach.jsp]의 [65] 행에서 오류가 발생했습니다.
+ecount cannot be resolved to a variable
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+66: 				</tr>
+67: 	<%	
+68: 		}
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/update_teach.jsp]의 [55] 행에서 오류가 발생했습니다.
+Duplicate local variable tmax
+52: 			String cname = myResultSet.getString("csubject");
+53: 			String cunit = myResultSet.getString("eid");
+54: 			String tmax = myResultSet.getString("ename");
+55: 			String tmax = myResultSet.getString("ecount");
+56: 			String tmax = myResultSet.getString("ecid");
+57: 			String tmax = myResultSet.getString("mid");
+58: 	%>
+
+
+JSP 파일 [/update_teach.jsp]의 [56] 행에서 오류가 발생했습니다.
+Duplicate local variable tmax
+53: 			String cunit = myResultSet.getString("eid");
+54: 			String tmax = myResultSet.getString("ename");
+55: 			String tmax = myResultSet.getString("ecount");
+56: 			String tmax = myResultSet.getString("ecid");
+57: 			String tmax = myResultSet.getString("mid");
+58: 	%>
+59: 
+
+
+JSP 파일 [/update_teach.jsp]의 [57] 행에서 오류가 발생했습니다.
+Duplicate local variable tmax
+54: 			String tmax = myResultSet.getString("ename");
+55: 			String tmax = myResultSet.getString("ecount");
+56: 			String tmax = myResultSet.getString("ecid");
+57: 			String tmax = myResultSet.getString("mid");
+58: 	%>
+59: 
+60: 				<tr>
+
+
+JSP 파일 [/update_teach.jsp]의 [61] 행에서 오류가 발생했습니다.
+csid cannot be resolved to a variable
+58: 	%>
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+
+
+JSP 파일 [/update_teach.jsp]의 [61] 행에서 오류가 발생했습니다.
+csid cannot be resolved to a variable
+58: 	%>
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+
+
+JSP 파일 [/update_teach.jsp]의 [62] 행에서 오류가 발생했습니다.
+csname cannot be resolved to a variable
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+
+
+JSP 파일 [/update_teach.jsp]의 [62] 행에서 오류가 발생했습니다.
+csname cannot be resolved to a variable
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+
+
+JSP 파일 [/update_teach.jsp]의 [64] 행에서 오류가 발생했습니다.
+ename cannot be resolved to a variable
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+66: 				</tr>
+67: 	<%	
+
+
+JSP 파일 [/update_teach.jsp]의 [64] 행에서 오류가 발생했습니다.
+ename cannot be resolved to a variable
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+66: 				</tr>
+67: 	<%	
+
+
+JSP 파일 [/update_teach.jsp]의 [65] 행에서 오류가 발생했습니다.
+ecount cannot be resolved to a variable
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+66: 				</tr>
+67: 	<%	
+68: 		}
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+14-Dec-2020 04:24:08.814 심각 [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/insert_teach.jsp]의 [28] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+25: 			Equipment en = (Equipment)vlist.elementAt(i);
+26: 	%>
+27: 			<tr>
+28: 				<td align="center"><%=en.getCId()%></td>
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [29] 행에서 오류가 발생했습니다.
+The method getCName() from the type Equipment is not visible
+26: 	%>
+27: 			<tr>
+28: 				<td align="center"><%=en.getCId()%></td>
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+
+
+JSP 파일 [/insert_teach.jsp]의 [31] 행에서 오류가 발생했습니다.
+The method getMID() is undefined for the type Equipment
+28: 				<td align="center"><%=en.getCId()%></td>
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getMID() is undefined for the type Equipment
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getCIdNo() is undefined for the type Equipment
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getCName() from the type Equipment is not visible
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [34] 행에서 오류가 발생했습니다.
+The method getECount() from the type Equipment is not visible
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+36: 			<% if (en.getCName() == null) { %>
+37: 					&nbsp;
+
+
+JSP 파일 [/insert_teach.jsp]의 [36] 행에서 오류가 발생했습니다.
+The method getCName() from the type Equipment is not visible
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+36: 			<% if (en.getCName() == null) { %>
+37: 					&nbsp;
+38: 			<% } else { %>
+39: 				<%=en.getCName()%>
+
+
+JSP 파일 [/insert_teach.jsp]의 [39] 행에서 오류가 발생했습니다.
+The method getCName() from the type Equipment is not visible
+36: 			<% if (en.getCName() == null) { %>
+37: 					&nbsp;
+38: 			<% } else { %>
+39: 				<%=en.getCName()%>
+40: 			<% } %>
+41: 				</td>
+42: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [43] 행에서 오류가 발생했습니다.
+The method getMID() is undefined for the type Equipment
+40: 			<% } %>
+41: 				</td>
+42: 				<td align="center">
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+
+
+JSP 파일 [/insert_teach.jsp]의 [44] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+41: 				</td>
+42: 				<td align="center">
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [44] 행에서 오류가 발생했습니다.
+The method getCIdNo() is undefined for the type Equipment
+41: 				</td>
+42: 				<td align="center">
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [45] 행에서 오류가 발생했습니다.
+The method getMID() is undefined for the type Equipment
+42: 				<td align="center">
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+48: 					&nbsp;
+
+
+JSP 파일 [/insert_teach.jsp]의 [46] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+48: 					&nbsp;
+49: 			<% } %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [46] 행에서 오류가 발생했습니다.
+The method getCIdNo() is undefined for the type Equipment
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+48: 					&nbsp;
+49: 			<% } %>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/insert_teach.jsp]의 [28] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+25: 			Equipment en = (Equipment)vlist.elementAt(i);
+26: 	%>
+27: 			<tr>
+28: 				<td align="center"><%=en.getCId()%></td>
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [29] 행에서 오류가 발생했습니다.
+The method getCName() from the type Equipment is not visible
+26: 	%>
+27: 			<tr>
+28: 				<td align="center"><%=en.getCId()%></td>
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+
+
+JSP 파일 [/insert_teach.jsp]의 [31] 행에서 오류가 발생했습니다.
+The method getMID() is undefined for the type Equipment
+28: 				<td align="center"><%=en.getCId()%></td>
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getMID() is undefined for the type Equipment
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getCIdNo() is undefined for the type Equipment
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [32] 행에서 오류가 발생했습니다.
+The method getCName() from the type Equipment is not visible
+29: 				<td align="center"><%=en.getCName()%></td>
+30: 				<td align="center">
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [34] 행에서 오류가 발생했습니다.
+The method getECount() from the type Equipment is not visible
+31: 			<% if(session_id.equals(en.getMID())) { %>
+32: 					<a href="update_class.jsp?p_id=<%=en.getMID()%>&c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>"><%}%><%=en.getCName()%>
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+36: 			<% if (en.getCName() == null) { %>
+37: 					&nbsp;
+
+
+JSP 파일 [/insert_teach.jsp]의 [36] 행에서 오류가 발생했습니다.
+The method getCName() from the type Equipment is not visible
+33: 				</td>
+34: 				<td align="center"><%=en.getECount()%></td>
+35: 				<td align="center">
+36: 			<% if (en.getCName() == null) { %>
+37: 					&nbsp;
+38: 			<% } else { %>
+39: 				<%=en.getCName()%>
+
+
+JSP 파일 [/insert_teach.jsp]의 [39] 행에서 오류가 발생했습니다.
+The method getCName() from the type Equipment is not visible
+36: 			<% if (en.getCName() == null) { %>
+37: 					&nbsp;
+38: 			<% } else { %>
+39: 				<%=en.getCName()%>
+40: 			<% } %>
+41: 				</td>
+42: 				<td align="center">
+
+
+JSP 파일 [/insert_teach.jsp]의 [43] 행에서 오류가 발생했습니다.
+The method getMID() is undefined for the type Equipment
+40: 			<% } %>
+41: 				</td>
+42: 				<td align="center">
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+
+
+JSP 파일 [/insert_teach.jsp]의 [44] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+41: 				</td>
+42: 				<td align="center">
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [44] 행에서 오류가 발생했습니다.
+The method getCIdNo() is undefined for the type Equipment
+41: 				</td>
+42: 				<td align="center">
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [45] 행에서 오류가 발생했습니다.
+The method getMID() is undefined for the type Equipment
+42: 				<td align="center">
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+48: 					&nbsp;
+
+
+JSP 파일 [/insert_teach.jsp]의 [46] 행에서 오류가 발생했습니다.
+The method getCId() from the type Equipment is not visible
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+48: 					&nbsp;
+49: 			<% } %>
+
+
+JSP 파일 [/insert_teach.jsp]의 [46] 행에서 오류가 발생했습니다.
+The method getCIdNo() is undefined for the type Equipment
+43: 			<% if(en.getMID() == null) { %>
+44: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=1">�떊泥�</a>
+45: 			<% } else if(session_id.equals(en.getMID())) { %>
+46: 					<a href="insert_teach_verify.jsp?c_id=<%= en.getCId() %>&c_id_no=<%= en.getCIdNo() %>&type=2">痍⑥냼</a>
+47: 			<% } else { %>
+48: 					&nbsp;
+49: 			<% } %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+14-Dec-2020 04:27:07.016 심각 [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/update_equipment.jsp]의 [55] 행에서 오류가 발생했습니다.
+Duplicate local variable tmax
+52: 			String cname = myResultSet.getString("csubject");
+53: 			String cunit = myResultSet.getString("eid");
+54: 			String tmax = myResultSet.getString("ename");
+55: 			String tmax = myResultSet.getString("ecount");
+56: 			String tmax = myResultSet.getString("ecid");
+57: 			String tmax = myResultSet.getString("mid");
+58: 	%>
+
+
+JSP 파일 [/update_equipment.jsp]의 [56] 행에서 오류가 발생했습니다.
+Duplicate local variable tmax
+53: 			String cunit = myResultSet.getString("eid");
+54: 			String tmax = myResultSet.getString("ename");
+55: 			String tmax = myResultSet.getString("ecount");
+56: 			String tmax = myResultSet.getString("ecid");
+57: 			String tmax = myResultSet.getString("mid");
+58: 	%>
+59: 
+
+
+JSP 파일 [/update_equipment.jsp]의 [57] 행에서 오류가 발생했습니다.
+Duplicate local variable tmax
+54: 			String tmax = myResultSet.getString("ename");
+55: 			String tmax = myResultSet.getString("ecount");
+56: 			String tmax = myResultSet.getString("ecid");
+57: 			String tmax = myResultSet.getString("mid");
+58: 	%>
+59: 
+60: 				<tr>
+
+
+JSP 파일 [/update_equipment.jsp]의 [61] 행에서 오류가 발생했습니다.
+csid cannot be resolved to a variable
+58: 	%>
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+
+
+JSP 파일 [/update_equipment.jsp]의 [61] 행에서 오류가 발생했습니다.
+csid cannot be resolved to a variable
+58: 	%>
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+
+
+JSP 파일 [/update_equipment.jsp]의 [62] 행에서 오류가 발생했습니다.
+csname cannot be resolved to a variable
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+
+
+JSP 파일 [/update_equipment.jsp]의 [62] 행에서 오류가 발생했습니다.
+csname cannot be resolved to a variable
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+
+
+JSP 파일 [/update_equipment.jsp]의 [64] 행에서 오류가 발생했습니다.
+ename cannot be resolved to a variable
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+66: 				</tr>
+67: 	<%	
+
+
+JSP 파일 [/update_equipment.jsp]의 [64] 행에서 오류가 발생했습니다.
+ename cannot be resolved to a variable
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+66: 				</tr>
+67: 	<%	
+
+
+JSP 파일 [/update_equipment.jsp]의 [65] 행에서 오류가 발생했습니다.
+ecount cannot be resolved to a variable
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+66: 				</tr>
+67: 	<%	
+68: 		}
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/update_equipment.jsp]의 [55] 행에서 오류가 발생했습니다.
+Duplicate local variable tmax
+52: 			String cname = myResultSet.getString("csubject");
+53: 			String cunit = myResultSet.getString("eid");
+54: 			String tmax = myResultSet.getString("ename");
+55: 			String tmax = myResultSet.getString("ecount");
+56: 			String tmax = myResultSet.getString("ecid");
+57: 			String tmax = myResultSet.getString("mid");
+58: 	%>
+
+
+JSP 파일 [/update_equipment.jsp]의 [56] 행에서 오류가 발생했습니다.
+Duplicate local variable tmax
+53: 			String cunit = myResultSet.getString("eid");
+54: 			String tmax = myResultSet.getString("ename");
+55: 			String tmax = myResultSet.getString("ecount");
+56: 			String tmax = myResultSet.getString("ecid");
+57: 			String tmax = myResultSet.getString("mid");
+58: 	%>
+59: 
+
+
+JSP 파일 [/update_equipment.jsp]의 [57] 행에서 오류가 발생했습니다.
+Duplicate local variable tmax
+54: 			String tmax = myResultSet.getString("ename");
+55: 			String tmax = myResultSet.getString("ecount");
+56: 			String tmax = myResultSet.getString("ecid");
+57: 			String tmax = myResultSet.getString("mid");
+58: 	%>
+59: 
+60: 				<tr>
+
+
+JSP 파일 [/update_equipment.jsp]의 [61] 행에서 오류가 발생했습니다.
+csid cannot be resolved to a variable
+58: 	%>
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+
+
+JSP 파일 [/update_equipment.jsp]의 [61] 행에서 오류가 발생했습니다.
+csid cannot be resolved to a variable
+58: 	%>
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+
+
+JSP 파일 [/update_equipment.jsp]의 [62] 행에서 오류가 발생했습니다.
+csname cannot be resolved to a variable
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+
+
+JSP 파일 [/update_equipment.jsp]의 [62] 행에서 오류가 발생했습니다.
+csname cannot be resolved to a variable
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+
+
+JSP 파일 [/update_equipment.jsp]의 [64] 행에서 오류가 발생했습니다.
+ename cannot be resolved to a variable
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+66: 				</tr>
+67: 	<%	
+
+
+JSP 파일 [/update_equipment.jsp]의 [64] 행에서 오류가 발생했습니다.
+ename cannot be resolved to a variable
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+66: 				</tr>
+67: 	<%	
+
+
+JSP 파일 [/update_equipment.jsp]의 [65] 행에서 오류가 발생했습니다.
+ecount cannot be resolved to a variable
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+66: 				</tr>
+67: 	<%	
+68: 		}
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+14-Dec-2020 04:27:50.901 심각 [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/update_equipment.jsp]의 [61] 행에서 오류가 발생했습니다.
+csid cannot be resolved to a variable
+58: 	%>
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+
+
+JSP 파일 [/update_equipment.jsp]의 [61] 행에서 오류가 발생했습니다.
+csid cannot be resolved to a variable
+58: 	%>
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+
+
+JSP 파일 [/update_equipment.jsp]의 [62] 행에서 오류가 발생했습니다.
+csname cannot be resolved to a variable
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+
+
+JSP 파일 [/update_equipment.jsp]의 [62] 행에서 오류가 발생했습니다.
+csname cannot be resolved to a variable
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/update_equipment.jsp]의 [61] 행에서 오류가 발생했습니다.
+csid cannot be resolved to a variable
+58: 	%>
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+
+
+JSP 파일 [/update_equipment.jsp]의 [61] 행에서 오류가 발생했습니다.
+csid cannot be resolved to a variable
+58: 	%>
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+
+
+JSP 파일 [/update_equipment.jsp]의 [62] 행에서 오류가 발생했습니다.
+csname cannot be resolved to a variable
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+
+
+JSP 파일 [/update_equipment.jsp]의 [62] 행에서 오류가 발생했습니다.
+csname cannot be resolved to a variable
+59: 
+60: 				<tr>
+61: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+62: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+63: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+64: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+65: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+14-Dec-2020 04:28:12.894 심각 [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/update_equipment.jsp]의 [63] 행에서 오류가 발생했습니다.
+csname cannot be resolved to a variable
+60: 
+61: 				<tr>
+62: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+63: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+64: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+65: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+66: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+
+
+JSP 파일 [/update_equipment.jsp]의 [63] 행에서 오류가 발생했습니다.
+csname cannot be resolved to a variable
+60: 
+61: 				<tr>
+62: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+63: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+64: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+65: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+66: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/update_equipment.jsp]의 [63] 행에서 오류가 발생했습니다.
+csname cannot be resolved to a variable
+60: 
+61: 				<tr>
+62: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+63: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+64: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+65: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+66: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+
+
+JSP 파일 [/update_equipment.jsp]의 [63] 행에서 오류가 발생했습니다.
+csname cannot be resolved to a variable
+60: 
+61: 				<tr>
+62: 					<td align="center"><%=csid%><input type="hidden" name="csid" value="<%=csid%>"></td>
+63: 					<td align="center"><%=csname%><input type="hidden" name="csname" value=<%=csname%>></td>
+64: 					<td align="center"><%=cname%><input type="hidden" name="cname" value=<%=cname%>></td>
+65: 					<td align="center"><%=ename%><input type="hidden" name="ename" value=<%=ename%>></td>
+66: 					<td align="center"><input type="text" name="ecount" size=5 value="<%=ecount%>"></td>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+14-Dec-2020 04:29:00.855 심각 [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [47]에서 [/update_equipment.jsp]을(를) 처리하는 중 예외 발생
+
+44: 		mySQL = "select distinct c.categoryID cid, c.name cname, c.subjectID csid, c.sujectName csname, e.equipmentID eid, e.name ename, e.count ecount, e.categoryID ecid, us.managerID mid from PJ_category c left outer join PJ_equipment e on (c.categoryID = e.categoryID) left outer join PJ_user_subject us on (us.subjectID=c.subjectID) order by c.categoryID , c.name";
+45: 			
+46: 		pstmt = conn.prepareStatement(mySQL);
+47: 		myResultSet = pstmt.executeQuery();
+48: 		
+49: 		while (myResultSet.next()) {
+50: 			String cid = myResultSet.getString("cid");
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.sql.SQLException: ORA-00904: "C"."SUJECTNAME": 부적합한 식별자
+
+		at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:439)
+		at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:395)
+		at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:802)
+		at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:436)
+		at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:186)
+		at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:521)
+		at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:205)
+		at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:861)
+		at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1145)
+		at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1267)
+		at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3449)
+		at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3493)
+		at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1203)
+		at org.apache.jsp.update_005fequipment_jsp._jspService(update_005fequipment_jsp.java:196)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:476)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+14-Dec-2020 04:29:20.185 심각 [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [47]에서 [/update_equipment.jsp]을(를) 처리하는 중 예외 발생
+
+44: 		mySQL = "select distinct c.categoryID cid, c.name cname, c.subjectID csid, c.subjectName csname, e.equipmentID eid, e.name ename, e.count ecount, e.categoryID ecid, us.managerID mid from PJ_category c left outer join PJ_equipment e on (c.categoryID = e.categoryID) left outer join PJ_user_subject us on (us.subjectID=c.subjectID) order by c.categoryID , c.name";
+45: 			
+46: 		pstmt = conn.prepareStatement(mySQL);
+47: 		myResultSet = pstmt.executeQuery();
+48: 		
+49: 		while (myResultSet.next()) {
+50: 			String cid = myResultSet.getString("cid");
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.sql.SQLException: ORA-00904: "C"."SUBJECTNAME": 부적합한 식별자
+
+		at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:439)
+		at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:395)
+		at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:802)
+		at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:436)
+		at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:186)
+		at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:521)
+		at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:205)
+		at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:861)
+		at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1145)
+		at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1267)
+		at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3449)
+		at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3493)
+		at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1203)
+		at org.apache.jsp.update_005fequipment_jsp._jspService(update_005fequipment_jsp.java:196)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:476)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+14-Dec-2020 04:29:34.838 심각 [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [54]에서 [/update_equipment.jsp]을(를) 처리하는 중 예외 발생
+
+51: 			String cname = myResultSet.getString("cname");
+52: 			String csid = myResultSet.getString("csid");
+53: 			String csname = myResultSet.getString("csname");
+54: 			String csubject = myResultSet.getString("csubject");
+55: 			String eid = myResultSet.getString("eid");
+56: 			String ename = myResultSet.getString("ename");
+57: 			String ecount = myResultSet.getString("ecount");
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.sql.SQLException: 부적합한 열 이름
+		at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:3651)
+		at oracle.jdbc.driver.OracleResultSetImpl.findColumn(OracleResultSetImpl.java:2543)
+		at oracle.jdbc.driver.OracleResultSet.getString(OracleResultSet.java:424)
+		at org.apache.jsp.update_005fequipment_jsp._jspService(update_005fequipment_jsp.java:203)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:476)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+14-Dec-2020 04:29:35.844 심각 [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [54]에서 [/update_equipment.jsp]을(를) 처리하는 중 예외 발생
+
+51: 			String cname = myResultSet.getString("cname");
+52: 			String csid = myResultSet.getString("csid");
+53: 			String csname = myResultSet.getString("csname");
+54: 			String csubject = myResultSet.getString("csubject");
+55: 			String eid = myResultSet.getString("eid");
+56: 			String ename = myResultSet.getString("ename");
+57: 			String ecount = myResultSet.getString("ecount");
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.sql.SQLException: 부적합한 열 이름
+		at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:3651)
+		at oracle.jdbc.driver.OracleResultSetImpl.findColumn(OracleResultSetImpl.java:2543)
+		at oracle.jdbc.driver.OracleResultSet.getString(OracleResultSet.java:424)
+		at org.apache.jsp.update_005fequipment_jsp._jspService(update_005fequipment_jsp.java:203)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:476)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+14-Dec-2020 04:29:37.097 심각 [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [54]에서 [/update_equipment.jsp]을(를) 처리하는 중 예외 발생
+
+51: 			String cname = myResultSet.getString("cname");
+52: 			String csid = myResultSet.getString("csid");
+53: 			String csname = myResultSet.getString("csname");
+54: 			String csubject = myResultSet.getString("csubject");
+55: 			String eid = myResultSet.getString("eid");
+56: 			String ename = myResultSet.getString("ename");
+57: 			String ecount = myResultSet.getString("ecount");
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.sql.SQLException: 부적합한 열 이름
+		at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:3651)
+		at oracle.jdbc.driver.OracleResultSetImpl.findColumn(OracleResultSetImpl.java:2543)
+		at oracle.jdbc.driver.OracleResultSet.getString(OracleResultSet.java:424)
+		at org.apache.jsp.update_005fequipment_jsp._jspService(update_005fequipment_jsp.java:203)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:476)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+14-Dec-2020 04:44:55.008 심각 [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [52]에서 [/update_equipment.jsp]을(를) 처리하는 중 예외 발생
+
+49: 		while (myResultSet.next()) {
+50: 			String cid = myResultSet.getString("cid");
+51: 			String cname = myResultSet.getString("cname");
+52: 			String csid = myResultSet.getString("csid");
+53: 			String csname = myResultSet.getString("csname");
+54: 			String eid = myResultSet.getString("eid");
+55: 			String ename = myResultSet.getString("ename");
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.sql.SQLException: 부적합한 열 이름
+		at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:3651)
+		at oracle.jdbc.driver.OracleResultSetImpl.findColumn(OracleResultSetImpl.java:2543)
+		at oracle.jdbc.driver.OracleResultSet.getString(OracleResultSet.java:424)
+		at org.apache.jsp.update_005fequipment_jsp._jspService(update_005fequipment_jsp.java:201)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:476)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)

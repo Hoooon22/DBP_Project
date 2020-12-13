@@ -1,0 +1,257 @@
+13-Dec-2020 21:40:12.615 심각 [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [23]에서 [/login_verify.jsp]을(를) 처리하는 중 예외 발생
+
+20: 	mySQL = "select studentID from PJ_student where s_id='" + userID + "' and  studentPW='" + userPassword + 
+21: 			"' union select p_id from professor where p_id='" + userID + "' and  p_pwd='" + userPassword + "'";
+22:    
+23: 	ResultSet myResultSet = stmt.executeQuery(mySQL);
+24:    
+25: 	if (myResultSet.next()) {
+26: 		session.setAttribute("user", userID);
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.sql.SQLException: ORA-00904: "S_ID": 부적합한 식별자
+
+		at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:439)
+		at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:395)
+		at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:802)
+		at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:436)
+		at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:186)
+		at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:521)
+		at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:194)
+		at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:853)
+		at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1145)
+		at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1267)
+		at oracle.jdbc.driver.OracleStatement.executeQuery(OracleStatement.java:1469)
+		at oracle.jdbc.driver.OracleStatementWrapper.executeQuery(OracleStatementWrapper.java:389)
+		at org.apache.jsp.login_005fverify_jsp._jspService(login_005fverify_jsp.java:133)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:476)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+13-Dec-2020 21:40:24.484 심각 [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [23]에서 [/login_verify.jsp]을(를) 처리하는 중 예외 발생
+
+20: 	mySQL = "select studentID from PJ_student where s_id='" + userID + "' and  studentPW='" + userPassword + 
+21: 			"' union select p_id from professor where p_id='" + userID + "' and  p_pwd='" + userPassword + "'";
+22:    
+23: 	ResultSet myResultSet = stmt.executeQuery(mySQL);
+24:    
+25: 	if (myResultSet.next()) {
+26: 		session.setAttribute("user", userID);
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.sql.SQLException: ORA-00904: "S_ID": 부적합한 식별자
+
+		at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:439)
+		at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:395)
+		at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:802)
+		at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:436)
+		at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:186)
+		at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:521)
+		at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:194)
+		at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:853)
+		at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1145)
+		at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1267)
+		at oracle.jdbc.driver.OracleStatement.executeQuery(OracleStatement.java:1469)
+		at oracle.jdbc.driver.OracleStatementWrapper.executeQuery(OracleStatementWrapper.java:389)
+		at org.apache.jsp.login_005fverify_jsp._jspService(login_005fverify_jsp.java:133)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:476)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+13-Dec-2020 21:45:15.136 심각 [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [22]에서 [/login_verify.jsp]을(를) 처리하는 중 예외 발생
+
+19: 
+20: 	mySQL = "select studentID from PJ_student where s_id='" + userID + "' and  studentPW='" + userPassword + "'";
+21:    
+22: 	ResultSet myResultSet = stmt.executeQuery(mySQL);
+23:    
+24: 	if (myResultSet.next()) {
+25: 		session.setAttribute("user", userID);
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.sql.SQLException: ORA-00904: "S_ID": 부적합한 식별자
+
+		at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:439)
+		at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:395)
+		at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:802)
+		at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:436)
+		at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:186)
+		at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:521)
+		at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:194)
+		at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:853)
+		at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1145)
+		at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1267)
+		at oracle.jdbc.driver.OracleStatement.executeQuery(OracleStatement.java:1469)
+		at oracle.jdbc.driver.OracleStatementWrapper.executeQuery(OracleStatementWrapper.java:389)
+		at org.apache.jsp.login_005fverify_jsp._jspService(login_005fverify_jsp.java:132)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:476)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+13-Dec-2020 21:49:48.426 심각 [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [java.lang.NullPointerException]을(를) 발생시켰습니다.
+	java.lang.NullPointerException
+		at org.apache.jsp.update_005fteach_jsp._jspService(update_005fteach_jsp.java:198)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:476)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+13-Dec-2020 22:06:28.368 심각 [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke 경로 []의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/login_verify.jsp]의 [20] 행에서 오류가 발생했습니다.
+The operator + is undefined for the argument type(s) String
+17: 	myConn = DriverManager.getConnection (dburl, user, passwd); 
+18: 	stmt = myConn.createStatement();
+19: 
+20: 	mySQL = "select studentID from PJ_student where studentID='" + userID + "' and  studentPW='" + + userPassword + 
+21: 			"' union select ManagerID from PJ_manager where ManagerID='" + userID + "' and  ManagerPW='" + userPassword + "'";
+22:    
+23: 	ResultSet myResultSet = stmt.executeQuery(mySQL);
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/login_verify.jsp]의 [20] 행에서 오류가 발생했습니다.
+The operator + is undefined for the argument type(s) String
+17: 	myConn = DriverManager.getConnection (dburl, user, passwd); 
+18: 	stmt = myConn.createStatement();
+19: 
+20: 	mySQL = "select studentID from PJ_student where studentID='" + userID + "' and  studentPW='" + + userPassword + 
+21: 			"' union select ManagerID from PJ_manager where ManagerID='" + userID + "' and  ManagerPW='" + userPassword + "'";
+22:    
+23: 	ResultSet myResultSet = stmt.executeQuery(mySQL);
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
